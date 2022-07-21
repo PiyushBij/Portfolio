@@ -1,0 +1,112 @@
+/* font-family: 'League Spartan', sans-serif;
+kfont-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif; */
+/*     font-family: 'Hurricane', cursive; */
+      /* font-family: 'Amatic SC', cursive; */
+      /* font-family: 'Dongle', sans-serif; */
+      /* #0f0c29 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+/* :root {
+  --shadow:black;
+} */
+html {
+  font-size: calc(15px + 0.390625vw);
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(21, 21, 27);
+}
+
+::-webkit-scrollbar-thumb {
+  /* -webkit-border-radius: 10px; */
+  /* border-radius: 10px; */
+  background: #86868a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4e4d51;
+}
+
+
+.strike {
+  position: relative;
+  /* display: block; */
+  cursor: pointer;
+}
+
+.strike:before,
+.strike:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+.strike:before {
+  left: -2.5px; 
+}
+.strike:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.strike:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.strike:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+  /* mobile-s------ */
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  /* mobile-m------ */
+}
+/* @media only screen and (min-width: 376px) and (max-width: 425px) {
+  mobile-l------
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  tab----------
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  laptop
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  laptop-l-------
+}
+@media only screen and (min-width: 1440px) and (max-width: 2560px){
+  4k
+} 
+@media only screen and (min-width: 2560px) {
+  big screens
+ }  */

@@ -1,0 +1,26 @@
+.main-nav {
+  padding: 1vw 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  /* border: 1px solid blue; */
+}
+
+.link {
+  color: rgb(182, 178, 178);
+  font-size: 30px;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+  transition: 0.4s;
+}
