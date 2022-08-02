@@ -1,0 +1,44 @@
+/* * {
+    box-sizing: border-box;
+} */
+.cookie-section-cs1 {
+    padding: 20vh 10vh 1vh;
+    z-index: 1;
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to right, #e9909a, #bfe9ff);
+}
+.cs1-heading {
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4.1rem;
+    color: rgb(35, 35, 35);
+}
+.cs1-background-heading {
+    font-size: 13rem;
+    position:fixed;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    color: rgba(113, 113, 113, 0.2);
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  writing-mode: vertical-rl;
+}
+.cs1-p-container {
+    margin: 10px auto;
+    width: 70%;
+    height: auto;
+}
+.cs1-para {
+    /* margin-top: 10vh; */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    text-align: left;
+    color:rgb(44, 42, 42);
+    font-size: 1.5rem;
+    margin: 3vh;
+}

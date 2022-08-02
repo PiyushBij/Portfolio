@@ -1,6 +1,6 @@
 import "./Homepage.css";
 import { NavLink } from "react-router-dom";
-import LogoImage from "./Images/Home/logo-white.png";
+
 import AboutImage from "./Images/About/About-image.png";
 import h1magichtml from "./Images/Home/html.png";
 import h1magiccss from "./Images/Home/css.png";
@@ -10,11 +10,38 @@ import caseImg2 from "./Images/Case/case-2.png";
 import caseImg3 from "./Images/Case/case-3.png";
 
 import NavBar from "./Components/NavBar.js";
+import Footer from "./Components/Footer.js";   
 import cookieImage from "./Images/Home/Cookiess.png";
 function Homepage() {
   return (
     <>
-      <section className="homepage-h1">
+      <div className="loader">
+        <div className="loader-content">
+          <h1>loading...</h1>
+        </div>
+      </div>
+      <div className="menu-itmes-m1">
+        <button className="m1-close">close</button>
+        <ul className="m1-links">
+          <li>home</li>
+          <li>experiments</li>
+          <li>latest works</li>
+          <li>contact</li>
+        </ul>
+        <ul className="m1-socials">
+          <li>twitter</li>
+          <li>instagram</li>
+          <li>linkedin</li>
+          <li>facebook</li>
+          <li>whatsapp</li>
+        </ul>
+      </div>
+      {/* <script>
+        $(window).on("load",function () {
+          $(".loader").fadeOut("slow")
+        });
+      </script> */}
+      <section id="top" className="homepage-h1">
         <div className="cookies-popup">
           <img height="20" width="20" src={cookieImage} alt="cookieImage" />
           <span>
@@ -27,6 +54,7 @@ function Homepage() {
           </span>
         </div>
         <NavBar />
+
         <div className="h1-container">
           <div className="h1-headings">
             <h3>Hello, I'm &nbsp; </h3>
@@ -34,12 +62,13 @@ function Homepage() {
             <br />
             <h3> Yess... a front-end developer.</h3>
             <br />
-            <h3 className="cursive">I do magic with these...</h3>
+            <h3 className=" animated-text-1 cursive">
+              I do magic with these...
+            </h3>
           </div>
           <div className="h1-social">
             <ul className="h1-social-ul">
               <li>
-                {" "}
                 <a>
                   <i class="i-4 fa-brands fa-twitter fa-2xs"></i>
                 </a>
@@ -91,9 +120,9 @@ function Homepage() {
           <p>
             My name is Piyush Bijwey, an intern front-end develeper. I've
             started my web development journey when i was in college. Earlier I
-            had decided to just be a creative front end developer but from
+            had decided to just be a creative front-end developer but from
             twenty twenty one, I've dived more into web and thaught to give a
-            try to back end also.
+            try to back-end also.
           </p>
         </div>
         <div className="a1-image">
@@ -110,7 +139,7 @@ function Homepage() {
             <img src={caseImg1} alt="altCase" />
             <div className="l1-overlay"></div>
             <div className="l1-overlay-headings">
-              <div>
+              <div className="l1-overlay-container">
                 <h1>E-parent Website</h1>
                 <h3>A servie porvider company.</h3>
                 <button className="l1-btn">
@@ -150,7 +179,7 @@ function Homepage() {
           </div>
         </div>
       </section>
-
+      {/* 
       <section className="code-c1">
         <h1 className="c1-heading">Look at some of my experiments:</h1>
         <div className="c1-pens-container">
@@ -158,7 +187,6 @@ function Homepage() {
             <a href="" target="_blank">
               <div className="c1-circle-container">
               <div className="c1-circle">
-                <video src=""></video>
               </div>
               </div>
               <div className="c1-bottom">
@@ -173,7 +201,6 @@ function Homepage() {
           <div className="c1-pens"><a href="" target="_blank">
               <div className="c1-circle-container">
               <div className="c1-circle">
-                <video src=""></video>
               </div>
               </div>
               <div className="c1-bottom">
@@ -187,7 +214,6 @@ function Homepage() {
           <div className="c1-pens"><a href="" target="_blank">
               <div className="c1-circle-container">
               <div className="c1-circle">
-                <video src=""></video>
               </div>
               </div>
               <div className="c1-bottom">
@@ -201,7 +227,6 @@ function Homepage() {
           <div className="c1-pens"><a href="" target="_blank">
               <div className="c1-circle-container">
               <div className="c1-circle">
-                <video src=""></video>
               </div>
               </div>
               <div className="c1-bottom">
@@ -214,47 +239,8 @@ function Homepage() {
             </a></div>
         </div>
       </section>
-
-      <section className="footer-f1">
-        <img
-          className="f1-img"
-          src={LogoImage}
-          height="150"
-          width="100"
-          alt="logoAlternateText"
-        />
-        <span className="f1-top">Top</span>
-        <div className="f1-socials">
-          <ul className="f1-social-ul">
-            <li>
-              <a href="https://twitter.com/PiyushBijwey" target="_blank">
-                <span className="strike">twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <span className="strike">facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <span className="strike">whatsapp</span>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <span className="strike">instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <span className="strike">linkedin</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <span className="f1-copyright">@copyright-PiyushPortfolio.com</span>
-      </section>
+ */}
+      <Footer />
     </>
   );
 }

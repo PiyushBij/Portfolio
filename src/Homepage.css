@@ -1,8 +1,48 @@
+.loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(57, 11, 99);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  overflow-y: hidden;
+  display: none;
+  cursor: default;
+  transition: 1s ease-in-out;
+}
+.menu-btn {
+  display: none;
+}
+.menu-itmes-m1 {
+  z-index: 9;
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;   
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(77, 20, 130);
+  display: none;
+}
 .homepage-h1 {
-  background-color: rgb(21, 21, 27);
+  /* background-color: rgb(21, 21, 27); */
+
+  background-image: linear-gradient(to right, #141414 0%, black 100%);
+  /* ,url('./Images/Home/logo-white.png'); */
+  /* background-size: cover; */
+  /* filter:opacity(90%); */
+  /* backdrop-filter:blur(2rem); */
   min-height: 100vh;
   width: 100%;
-  /* background-image: url('./Images/logo-white.png'); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -11,25 +51,16 @@
   font-family: "League Spartan", sans-serif;
   box-shadow: 0 0 30px black;
   padding-top: 20vh;
-  /* z-index: 2; */
 }
-/* .homepage-h1 img {
-
-  filter:brightness(10%);
-} */
 .cookies-popup {
-  width: 28%;
+  width: 40%;
   height: 5vh;
   padding: 1vh;
   box-sizing: border-box;
-  /* border: 1px solid red; */
-  /* font-size: 20px; */
   font-size: 1rem;
   position: absolute;
-  /* top: 0;
-    right: 36%;
-    left: 36%; */
   right: 0;
+  left: 0;
   bottom: 2vh;
 }
 .dismiss {
@@ -63,11 +94,23 @@ h3 {
   font-size: 2.5rem;
   line-height: 2.7rem;
 }
+.animated-text-1 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  animation: textAnimation1 2s infinite ease-in-out;
+  text-shadow: 0 0 20px rgb(117, 226, 238);
+}
+@keyframes textAnimation1 {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
 .cursive {
   font-family: "Hurricane", cursive;
-}
-section {
-  height: 100vh;
 }
 .h1-social {
   justify-self: flex-end;
@@ -81,12 +124,16 @@ section {
 .h1-social-ul li {
   list-style-type: none;
   color: rgb(182, 178, 178);
+  padding-right: 2vh;
 }
 
 .h1-social-ul li i {
   transition: 0.4s;
   cursor: pointer;
 }
+/* .h1-social-ul li i:hover {
+  color: white;
+} */
 .h1-social-ul li .i-1:hover {
   color: rgb(51, 78, 250);
 }
@@ -97,7 +144,7 @@ section {
   color: rgb(255, 19, 231);
 }
 .h1-social-ul li .i-4:hover {
-  color: rgb(255, 2, 2);
+  color: rgb(43, 106, 253);
 }
 .h1-social-ul li .i-5:hover {
   color: rgb(43, 106, 251);
@@ -112,7 +159,6 @@ section {
 .h1-magics {
   height: 100%;
   width: 25%;
-  /* background-color: wheat; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,17 +169,13 @@ section {
 
 /* about */
 .about-a1 {
-  /* margin-top: 10vh; */
   height: 100vh;
   width: 100%;
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0 30px 30px rgb(57, 57, 57);
   background-image: linear-gradient(white, rgb(178, 178, 206));
-
-  /* z-index: -1; */
 }
 
 .a1-content {
@@ -165,7 +207,6 @@ section {
   position: absolute;
   bottom: 0;
   right: 2vh;
-  /* border: 1px solid red; */
 }
 
 /* latest works/case studies */
@@ -200,7 +241,6 @@ section {
   height: 36vw;
   width: 70%;
   background-color: rgb(137, 133, 127);
-  /* border: 1px solid red; */
   margin: 10vh;
   box-shadow: 0 0 15vh rgb(120, 118, 118);
   position: relative;
@@ -225,17 +265,14 @@ section {
   box-shadow: 0 0 15vh rgb(120, 118, 118);
 }
 .l1-cases:hover .l1-overlay-headings {
-  /* display: block; */
   opacity: 1;
 }
 .l1-overlay-headings {
   height: auto;
   width: auto;
-  /* background-color: rgba(79, 77, 99,0.4); */
   position: absolute;
   bottom: 20%;
   right: 10%;
-  /* display: none; */
   opacity: 0;
   transition-delay: 1s;
   transition: 1s;
@@ -247,8 +284,8 @@ section {
   font-family: "Dongle", sans-serif;
 }
 .l1-nav {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .l1-btn {
   padding: 2vh 3vh;
@@ -265,7 +302,7 @@ section {
   cursor: pointer;
 }
 .l1-i {
-    transition: 0.4s;
+  transition: 0.4s;
 }
 .l1-btn:hover .l1-i {
   transform: translateX(10px);
@@ -297,7 +334,6 @@ section {
 .c1-pens {
   height: 68vh;
   width: 23%;
-  /* background-color: blueviolet; */
   background-image: linear-gradient(rgb(47, 47, 226), rgb(103, 16, 184));
 }
 .c1-pens a {
@@ -306,58 +342,3 @@ section {
 }
 
 /* footer */
-
-.footer-f1 {
-  margin-top: 5vh;
-  padding: 15vh 5vh;
-  height: auto;
-  width: 100%;
-  position: relative;
-  background-color: rgb(21, 21, 27);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: "League Spartan", sans-serif;
-}
-.f1-top {
-  color: rgb(255, 255, 255);
-  font-size: 1.5rem;
-  position: absolute;
-  left: 55%;
-  opacity: 0;
-  transition: 1s;
-  transform: translateX(-5vh);
-}
-.f1-top:hover {
-  opacity: 1;
-  transform: translateX(2vh);
-  /* transition: 1s; */
-}
-.f1-socials {
-  margin-top: 5vh;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  font-size: 1.3rem;
-  justify-content: space-evenly;
-}
-.f1-social-ul li {
-  list-style-type: none;
-  transition: 0.4s;
-  cursor: pointer;
-}
-.f1-social-ul li a:hover {
-  color: white;
-}
-.f1-social-ul li a {
-  /* color: white; */
-  color: rgb(182, 178, 178);
-  text-decoration: none;
-  transition: 0.4s;
-}
-.f1-copyright {
-  margin-top: 4vh;
-  font-size: 1rem;
-}

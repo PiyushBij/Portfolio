@@ -1,0 +1,14 @@
+
+.i1-image {
+    height: 100%;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../Images/Case/case-2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(10%);
+}

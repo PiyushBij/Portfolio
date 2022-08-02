@@ -1,8 +1,8 @@
-import "./NavBar.css";
+import "./Nav2Bar.css";
 import { NavLink } from "react-router-dom";
 import LogoImageW from "../Images/Home/logo-white.png";
 import LogoImageB from "../Images/Home/logo-black.png";
-function NavBar() {
+function Nav2Bar() {
   return (
     <>
       <nav className="main-nav">
@@ -13,9 +13,9 @@ function NavBar() {
         <ul className="navul">
           <li>
             <a href="/#cases-id" className="link"> 
-              <span className="strike">Latest Works</span>
+              <span className="strike">All   Works</span>
             </a>
-          </li>
+          </li>       
           <li>
             <NavLink exact className="link" to="/Contact">
               <span className="strike"> Contact</span>
@@ -28,4 +28,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Nav2Bar;

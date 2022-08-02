@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  /* border:1px solid red; */
+}
+/* eparent-home */
+.home-e1 {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 20px rgb(54, 53, 53);
+}
+.e1-image {
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:  url("../Images/Case/case-1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(20%);
+}
+.e1-heading-container {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 60%;
+  color: white;
+  /* vertical-align:center; */
+  /* position: absolute;
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%);  */
+}
+.e1-heading-container h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.e1-heading-container h3 {
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  text-align: center;
+  display: block;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 200;
+}
+.e1-role {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.roles {
+  width: 32%;
+  height: 80%;
+  /* border:1px solid red; */
+  padding: 3vh;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.ivaan-color {
+  color: rgb(20, 145, 255);
+}
+/* eparent-project */
+
+.project-e1 {
+  background-image: linear-gradient(rgb(119, 119, 120), rgb(27, 25, 45));
+  position: relative;
+} 
+.e1-project-heading {
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(221, 219, 219);
+  text-shadow: 0 0 20px rgb(64, 64, 64);
+}
+
+
+.wrapper {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+  /* border: 4px solid #eb1c49; */
+  overflow-x: hidden;
+  /* z-index: 100; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  writing-mode: vertical-rl;
+  /* word-break: keep-all; */
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+.target {
+  /* border: 1px solid red; */
+  font-weight: bold;
+  font-size: 9rem;
+  color: rgb(120, 120, 120,0.3);
+  animation-name: rightToLeft;
+  animation-duration: 15.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  /* animation: rightToLeft 4.5s linear infinite; */
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
+.e1-project-para {
+  height: auto;
+  color: rgb(198, 197, 197);
+  width: 50%;
+  padding: 4vh;
+  font-size: 1.3rem;
+  padding-top: 3vh;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 16vh;
+}
+.e1-btn {
+  /* margin: 0px auto; */
+  padding: 2vh 3vh;
+  border: none;
+  background-color: rgb(29, 29, 29);
+  cursor: pointer;
+  color: black;
+  font-size: 0.8rem;
+  display: inline;
+  text-align:center;
+  box-shadow: 0 0 20px black;
+  position:absolute;
+  left:40%;
+  right:40%;
+  bottom:2vh;
+}
+.e1-nav {
+  color: white;
+  text-decoration: none;
+}
+.e1-i {
+  transition: 0.4s;
+}
+.e1-btn:hover .e1-i {
+  transform: translateX(10px);
+}
+.nxtwrk-e1 {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.e1-title {
+  align-self: flex-start;
+  font-size: 1.4rem;
+}
+.e1-nxtwrk-btn {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.e1-title2 {
+  font-size: 4rem;
+  color: rgb(32, 32, 32);
+}
+.e1-btn-nxtwrk {
+  font-size: 2rem;
+  padding: 1vh 7vh;
+  color: white;
+  background-image: linear-gradient(blue,purple);
+  transition: 0.2s;
+  box-shadow: 0 0 20px black;
+}
+.e1-btn-nxtwrk:hover {
+  box-shadow: 0 0 40px black;
+}
