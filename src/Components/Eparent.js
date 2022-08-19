@@ -6,13 +6,13 @@ function Eparent() {
   return (
     <>
       <Nav2Bar />
-      <section id="top" className="eparent-e1">
+      <section data-some="case" id="top" className="eparent-e1">
         <div className="home-e1">
           <div className="e1-image"></div>
           <div className="e1-heading-container">
             <h1>Eparent Company</h1>
-            <h3>
-              <i>A tech parent company.</i>
+            <h3 >
+              <i >A tech parent company.</i>
             </h3>
           </div>
           <div className="e1-role">
@@ -45,9 +45,11 @@ function Eparent() {
             laudantium! Autem voluptate libero adipisci et vero, ipsum
             cupiditate.
           </p>
-          <button className=" e1-nav e1-btn">
+          {/* <button > */}
+            <a className=" e1-nav e1-btn" target="_blank" href="https://eparentcompany.herokuapp.com/">
                     Visit <i class=" e1-i fa-solid fa-arrow-right-long"></i>
-         </button>
+            </a>
+         {/* </button> */}
           </div> 
         </div>
 

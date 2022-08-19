@@ -168,6 +168,7 @@
 .nxtwrk-e1 {
   height: 40vh;
   width: 100%;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

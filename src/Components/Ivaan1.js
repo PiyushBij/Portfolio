@@ -30,9 +30,11 @@ function Ivaan1() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eveniet voluptatibus fuga beatae esse sit voluptate, quidem inventore et vel earum voluptatum ex asperiores id, quisquam at adipisci quaerat quas! Excepturi.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae deserunt consequatur, quaerat vero officia repellat ratione ut dicta, sint explicabo laudantium! Autem voluptate libero adipisci et vero, ipsum cupiditate.
         </p>
-        <button className=" e1-nav e1-btn">
+        {/* <button > */}
+        <a className=" e1-nav e1-btn" target="_blank" href="https://ivaanstudios.com/">
                     Visit <i class=" e1-i fa-solid fa-arrow-right-long"></i>
-         </button>
+            </a>
+         {/* </button> */}
     </div>
     </div>
 

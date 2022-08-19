@@ -9,10 +9,13 @@ import caseImg1 from "./Images/Case/case-1.png";
 import caseImg2 from "./Images/Case/case-2.png";
 import caseImg3 from "./Images/Case/case-3.png";
 
-import NavBar from "./Components/NavBar.js";
-import Footer from "./Components/Footer.js";   
-import cookieImage from "./Images/Home/Cookiess.png";
+import Nav2Bar from "./Components/Nav2Bar.js";
+import Footer from "./Components/Footer.js";
+import Cookiepop from "./Cookiepop.js";
+
 function Homepage() {
+
+ 
   return (
     <>
       <div className="loader">
@@ -20,40 +23,15 @@ function Homepage() {
           <h1>loading...</h1>
         </div>
       </div>
-      <div className="menu-itmes-m1">
-        <button className="m1-close">close</button>
-        <ul className="m1-links">
-          <li>home</li>
-          <li>experiments</li>
-          <li>latest works</li>
-          <li>contact</li>
-        </ul>
-        <ul className="m1-socials">
-          <li>twitter</li>
-          <li>instagram</li>
-          <li>linkedin</li>
-          <li>facebook</li>
-          <li>whatsapp</li>
-        </ul>
-      </div>
+
       {/* <script>
         $(window).on("load",function () {
           $(".loader").fadeOut("slow")
         });
       </script> */}
       <section id="top" className="homepage-h1">
-        <div className="cookies-popup">
-          <img height="20" width="20" src={cookieImage} alt="cookieImage" />
-          <span>
-            {" "}
-            This website uses{" "}
-            <NavLink to="/Cookies">
-              <span className="strike cook-txt"> Cookies</span>
-            </NavLink>{" "}
-            - <span className="strike dismiss">Dismiss</span>
-          </span>
-        </div>
-        <NavBar />
+        <Cookiepop  />
+        <Nav2Bar />
 
         <div className="h1-container">
           <div className="h1-headings">
@@ -114,7 +92,7 @@ function Homepage() {
         </div>
       </section>
 
-      <section className="about-a1">
+      <section id="about-id" className="about-a1">
         <div className="a1-content">
           <h1>My Journey</h1>
           <p>
@@ -128,8 +106,11 @@ function Homepage() {
         <div className="a1-image">
           <img src={AboutImage} alt="AboutImageAlternate" />
         </div>
+        <div class="a1-wrapper">
+          <p class="a1-target">About Me</p>
+        </div>
       </section>
-      {/* 
+      {/*
       <section>skills</section>
       <section>resume</section> */}
       <section id="cases-id" className="latest-l1">

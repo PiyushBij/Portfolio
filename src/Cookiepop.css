@@ -1,0 +1,18 @@
+.cookies-popup {
+    width: 40%;
+    height: 5vh;
+    padding: 1vh;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 2vh;
+  }
+  .dismiss {
+    color: rgb(201, 35, 35);
+  }
+  .cook-txt {
+    color: rgb(152, 152, 243);
+  }

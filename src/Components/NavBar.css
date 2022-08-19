@@ -1,3 +1,19 @@
+.menu-items-m1 {
+  height: 100%;
+  width: 100%;
+  z-index: 19;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(77, 20, 130);
+  display: none;
+}
+
 .main-nav {
   padding: 1vw 4vw;
   display: flex;

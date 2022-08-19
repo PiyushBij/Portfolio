@@ -17,6 +17,7 @@
 }
 .cs1-background-heading {
     font-size: 13rem;
+    display: inline;
     position:fixed;
     z-index: 2;
     right: 0;

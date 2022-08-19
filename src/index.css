@@ -110,20 +110,26 @@ html {
   * {
     box-sizing: border-box;
   }
-
   /* Navbar-code */
-  .navul {
+  .n1-nav-ul {
     display: none;
   }
 
+/* case code */
+.e1-project-para {
+  width: 90% !important;
+}
+
   .menu-btn i {
     font-size: 2rem;
-    background-color: black;
+    background-color: transparent !important;
     color: white;
   }
   /* Homepage-code */
   .menu-btn {
     display: block !important;
+    background-color: transparent !important;
+border: none !important;
   }
   .homepage-h1 {
     box-shadow: 0 0 50 black;
@@ -365,6 +371,21 @@ html {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   /* tabs */
   * {
@@ -373,7 +394,7 @@ html {
 
   /* Navbar-code */
 
-  .navul {
+  .n1-nav-ul {
     display: none;
   }
 
