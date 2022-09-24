@@ -21,7 +21,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image:  url("../Images/Case/case-1.png");
+  background-image: url("../Images/Case/case-1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@
 .project-e1 {
   background-image: linear-gradient(rgb(119, 119, 120), rgb(27, 25, 45));
   position: relative;
-} 
+}
 .e1-project-heading {
   padding-top: 10vh;
   text-align: center;
@@ -87,7 +87,6 @@
   color: rgb(221, 219, 219);
   text-shadow: 0 0 20px rgb(64, 64, 64);
 }
-
 
 .wrapper {
   /* border: 1px solid red; */
@@ -101,7 +100,7 @@
   left: 0;
   writing-mode: vertical-rl;
   /* word-break: keep-all; */
-  overflow:hidden;
+  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -109,7 +108,7 @@
   /* border: 1px solid red; */
   font-weight: bold;
   font-size: 9rem;
-  color: rgb(120, 120, 120,0.3);
+  color: rgb(120, 120, 120, 0.3);
   animation-name: rightToLeft;
   animation-duration: 15.5s;
   animation-timing-function: linear;
@@ -148,12 +147,12 @@
   color: black;
   font-size: 0.8rem;
   display: inline;
-  text-align:center;
+  text-align: center;
   box-shadow: 0 0 20px black;
-  position:absolute;
-  left:40%;
-  right:40%;
-  bottom:2vh;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  bottom: 2vh;
 }
 .e1-nav {
   color: white;
@@ -183,7 +182,7 @@
   height: 30vh;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
 .e1-title2 {
@@ -194,7 +193,7 @@
   font-size: 2rem;
   padding: 1vh 7vh;
   color: white;
-  background-image: linear-gradient(blue,purple);
+  background-image: linear-gradient(blue, purple);
   transition: 0.2s;
   box-shadow: 0 0 20px black;
 }

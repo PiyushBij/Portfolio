@@ -8,32 +8,31 @@ function Contact() {
       {/* <h1>Contact</h1> */}
       <div className="contact-co1">
         <div className="co1-container">
-          <h1>Let's Talk...</h1>
-          <h3>If you have any enquiry or even a coffee.</h3>
+          <h1>Want to work with me ?</h1>
+          <h3>Let's Talk...
+            {/* If you have any querry or even a coffee. */}
+            
+            </h3>
 
+          {/* want to work with me?
+           */}
 
-
-
-
-{/* want to work with me? 
- */}
-
-
-
-
-          <form className="co1-form" action="action.php">
+          <form className="co1-form" >
             <label htmlFor="inp1">name</label>
             <input className="co1-inputs" id="inp1" type="text" />
             <br />
-            <label htmlFor="inp2">name2</label>
+            <label htmlFor="inp2">budget</label>
             <input className="co1-inputs" id="inp2" type="text" />
+            <br />
+            <label htmlFor="inp4">time </label>
+            <input className="co1-inputs" id="inp4" type="text" />
             <br />
             <label htmlFor="inp3">email</label>
             <input className="co1-inputs" id="inp3" type="text" />
+            <button className="form-btn" type="submit">Send</button>
           </form>
           {/* <div className="line-container"> */}
-              <div className="line-wrapper">
-
+          <div className="line-wrapper">
             <span className="line-words target-1">Contact Me &nbsp;</span>
             <span className="line-words target-2">Contact Me &nbsp;</span>
             <span className="line-words target-3">Contact Me &nbsp;</span>
@@ -54,7 +53,7 @@ function Contact() {
             <span className="line-words target-18">Contact Me &nbsp;</span>
             <span className="line-words target-19">Contact Me &nbsp;</span>
             <span className="line-words target-20">Contact Me &nbsp;</span>
-              </div>
+          </div>
           {/* </div> */}
         </div>
       </div>

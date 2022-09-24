@@ -115,10 +115,10 @@ html {
     display: none;
   }
 
-/* case code */
-.e1-project-para {
-  width: 90% !important;
-}
+  /* case code */
+  .e1-project-para {
+    width: 90% !important;
+  }
 
   .menu-btn i {
     font-size: 2rem;
@@ -129,7 +129,7 @@ html {
   .menu-btn {
     display: block !important;
     background-color: transparent !important;
-border: none !important;
+    border: none !important;
   }
   .homepage-h1 {
     box-shadow: 0 0 50 black;
@@ -325,8 +325,8 @@ border: none !important;
   /* footer */
 
   .footer-f1 {
-    margin-top: 5vh;
-    padding: 5vh 0 !important;
+    margin-top: 0 !important;
+    padding: 10vh 0 !important;
     height: auto;
     width: 100%;
   }
@@ -386,6 +386,19 @@ border: none !important;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   /* tabs */
   * {
@@ -401,6 +414,10 @@ border: none !important;
   /* Homepage-code */
   .menu-btn {
     display: block !important;
+    font-size: 2rem;
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
   }
   .homepage-h1 {
     box-shadow: 0 0 50 black;

@@ -1,0 +1,60 @@
+<section className="code-c1">
+        <h1 className="c1-heading">Look at some of my experiments:</h1>
+        <div className="c1-pens-container">
+          <div className="c1-pens">
+            <a href="" target="_blank">
+              <div className="c1-circle-container">
+              <div className="c1-circle">
+              </div>
+              </div>
+              <div className="c1-bottom">
+                <h1 className="c1-title">Title</h1>
+                <h3 className="c1-discription">This is something written.</h3>
+                <div className="c1-No,Bar">
+                  <span className="c1-bar"></span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="c1-pens"><a href="" target="_blank">
+              <div className="c1-circle-container">
+              <div className="c1-circle">
+              </div>
+              </div>
+              <div className="c1-bottom">
+                <h1 className="c1-title">Title</h1>
+                <h3 className="c1-discription">This is something written.</h3>
+                <div className="c1-No,Bar">
+                  <span className="c1-bar"></span>
+                </div>
+              </div>
+            </a></div>
+          <div className="c1-pens"><a href="" target="_blank">
+              <div className="c1-circle-container">
+              <div className="c1-circle">
+              </div>
+              </div>
+              <div className="c1-bottom">
+                <h1 className="c1-title">Title</h1>
+                <h3 className="c1-discription">This is something written.</h3>
+                <div className="c1-No,Bar">
+                  <span className="c1-bar"></span>
+                </div>
+              </div>
+            </a></div>
+          <div className="c1-pens"><a href="" target="_blank">
+              <div className="c1-circle-container">
+              <div className="c1-circle">
+              </div>
+              </div>
+              <div className="c1-bottom">
+                <h1 className="c1-title">Title</h1>
+                <h3 className="c1-discription">This is something written.</h3>
+                <div className="c1-No,Bar">
+                  <span className="c1-bar"></span>
+                </div>
+              </div>
+            </a></div>
+        </div>
+      </section>
+ */}

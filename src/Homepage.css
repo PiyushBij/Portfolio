@@ -22,7 +22,7 @@
   /* background-color: rgb(21, 21, 27); */
 
   background-image: linear-gradient(to right, #141414 0%, black 100%);
-  /* ,url('./Images/Home/logo-white.png'); */
+  /* ,url('./Images/Home/h1.h1-magics-images-white.png'); */
   /* background-size: cover; */
   /* filter:opacity(90%); */
   /* backdrop-filter:blur(2rem); */
@@ -37,7 +37,17 @@
   box-shadow: 0 0 30px black;
   padding-top: 20vh;
 }
-
+.homepage-h1::after {
+  content: "";
+  height: 5vh;
+  width: 2px;
+  color: white;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 49%;
+  left: 49%;
+}
 .h1-container {
   height: 40vh;
   width: 100%;
@@ -132,11 +142,75 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.h1-magics img {
+.h1-magics-images {
   height: 70%;
 }
 
+
+
+
+
+
+
+.h1-magics-images {
+  /* width: 10em;
+  height: 10em; */
+  /* animation: bounceIn 1.6s 1s ; */
+  animation: float 3s ease-in-out infinite;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  cursor: pointer;
+}
+
+.h1-magics:hover .h1-magics-images{
+  /* transform: rotate(10deg) scale(1.1); */
+  /* animation-play-state: paused; */
+  animation: bounceIn 1.6s ;
+  /* border :1px solid red; */
+}
+/* 
+.bubble { fill: #e76853; }
+.icon { fill:  #fff; } */
+
+@keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  } 
+
+  70% {
+    opacity: 1;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+
 /* about */
+
 .about-a1 {
   height: 100vh;
   width: 100%;
@@ -178,7 +252,7 @@ h3 {
   overflow-y: hidden; */
   /* z-index: 100; */
   position: absolute;
-  bottom:  0;
+  bottom: 0;
   left: 0;
   /* writing-mode: vertical-rl; */
   /* word-break: keep-all; */
@@ -190,14 +264,14 @@ h3 {
   /* border: 1px solid red; */
   font-weight: bold;
   font-size: 11rem;
-  color: rgb(120, 120, 120,0.3);
+  color: rgb(120, 120, 120, 0.3);
   animation-name: rightToLeft2;
-  animation-duration:  25.5s;
+  animation-duration: 25.5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   /* animation-direction: alternate; */
   /* animation: rightToLeft 4.5s linear infinite; */
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 @keyframes rightToLeft2 {

@@ -14,8 +14,7 @@ import Footer from "./Components/Footer.js";
 import Cookiepop from "./Cookiepop.js";
 
 function Homepage() {
-
- 
+  
   return (
     <>
       <div className="loader">
@@ -26,11 +25,11 @@ function Homepage() {
 
       {/* <script>
         $(window).on("load",function () {
-          $(".loader").fadeOut("slow")
+          $(".loader").fadeOut("slow") 
         });
       </script> */}
       <section id="top" className="homepage-h1">
-        <Cookiepop  />
+        <Cookiepop />
         <Nav2Bar />
 
         <div className="h1-container">
@@ -53,7 +52,7 @@ function Homepage() {
               </li>
               <li>
                 <a>
-                  <i class="i-1 fa-brands fa-facebook-f fa-2xs"></i>
+                <i class="i-1 fa-brands fa-github fa-2xs"></i>
                 </a>
               </li>
               <li>
@@ -66,11 +65,6 @@ function Homepage() {
                   <i class="i-3 fa-brands fa-instagram fa-2xs"></i>
                 </a>
               </li>
-              {/* <li>
-                <a>
-                  <i class=" fa-brands fa-youtube fa-2xs"></i>
-                </a>
-              </li> */}
               <li>
                 <a>
                   <i class="i-5 fa-brands fa-linkedin-in fa-2xs"></i>
@@ -81,18 +75,23 @@ function Homepage() {
         </div>
         <div className="h1-magic-boxes">
           <div className="h1-magics">
-            <img src={h1magichtml} alt="htmlAlternate" />
+            <img className="h1-magics-images" src={h1magichtml} alt="htmlAlternate" />
           </div>
           <div className="h1-magics">
-            <img src={h1magiccss} alt="cssAlternate" />
+            <img className="h1-magics-images" src={h1magiccss} alt="cssAlternate" />
           </div>
           <div className="h1-magics">
-            <img src={h1magicjs} alt="jsAlternate" />
+            <img className="h1-magics-images" src={h1magicjs} alt="jsAlternate" />
           </div>
         </div>
       </section>
 
       <section id="about-id" className="about-a1">
+        <script>
+          
+        </script>
+
+
         <div className="a1-content">
           <h1>My Journey</h1>
           <p>
@@ -160,67 +159,6 @@ function Homepage() {
           </div>
         </div>
       </section>
-      {/* 
-      <section className="code-c1">
-        <h1 className="c1-heading">Look at some of my experiments:</h1>
-        <div className="c1-pens-container">
-          <div className="c1-pens">
-            <a href="" target="_blank">
-              <div className="c1-circle-container">
-              <div className="c1-circle">
-              </div>
-              </div>
-              <div className="c1-bottom">
-                <h1 className="c1-title">Title</h1>
-                <h3 className="c1-discription">This is something written.</h3>
-                <div className="c1-No,Bar">
-                  <span className="c1-bar"></span>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div className="c1-pens"><a href="" target="_blank">
-              <div className="c1-circle-container">
-              <div className="c1-circle">
-              </div>
-              </div>
-              <div className="c1-bottom">
-                <h1 className="c1-title">Title</h1>
-                <h3 className="c1-discription">This is something written.</h3>
-                <div className="c1-No,Bar">
-                  <span className="c1-bar"></span>
-                </div>
-              </div>
-            </a></div>
-          <div className="c1-pens"><a href="" target="_blank">
-              <div className="c1-circle-container">
-              <div className="c1-circle">
-              </div>
-              </div>
-              <div className="c1-bottom">
-                <h1 className="c1-title">Title</h1>
-                <h3 className="c1-discription">This is something written.</h3>
-                <div className="c1-No,Bar">
-                  <span className="c1-bar"></span>
-                </div>
-              </div>
-            </a></div>
-          <div className="c1-pens"><a href="" target="_blank">
-              <div className="c1-circle-container">
-              <div className="c1-circle">
-              </div>
-              </div>
-              <div className="c1-bottom">
-                <h1 className="c1-title">Title</h1>
-                <h3 className="c1-discription">This is something written.</h3>
-                <div className="c1-No,Bar">
-                  <span className="c1-bar"></span>
-                </div>
-              </div>
-            </a></div>
-        </div>
-      </section>
- */}
       <Footer />
     </>
   );

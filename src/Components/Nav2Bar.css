@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 19;
   color: white;
-  position: fixed;   
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -21,35 +21,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-around;
-  background-image:linear-gradient(to right, rgb(77, 20, 130),rgb(45, 9, 79));
+  justify-content: space-around;
+  background-image: linear-gradient(to right, rgb(77, 20, 130), rgb(45, 9, 79));
+  position: relative;
 }
 
 .main-nav-n1 {
-    padding: 1vw 4vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
-  .n1-nav-ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 5px 10px;
-  }
-  .link {
-    color: rgb(182, 178, 178);
-    font-size: 30px;
-    text-decoration: none;
-  }
-  .link:hover {
-    color: white;
-    transition: 0.4s;
-  }
-  /* .cases {
+  padding: 1vw 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.n1-nav-ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.link {
+  color: rgb(182, 178, 178);
+  font-size: 30px;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+  transition: 0.4s;
+}
+/* .cases {
     display: none;
   }
   .home {
@@ -65,13 +66,16 @@
     display: block;
   } */
 .n2-close {
-  align-self: flex-end;
+  /* align-self: flex-end; */
+  position: absolute;
+  top: 4vh;
+  right: 1vh;
   /* width: 20px; */
-font-size: 3rem;
-background-color: transparent;
-border: none;
-color: white;
-margin-left: 2vh;
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-left: 2vh;
 }
 .n2-nav-ul {
   list-style-type: none;
@@ -79,9 +83,12 @@ margin-left: 2vh;
 .n2-socials {
   /* border:1px solid red; */
   width: 100%;
-  height: 20vh;
-  justify-self: flex-end;
-  align-self: flex-end;
+  height: 10vh;
+  position: absolute;
+  left: 0;
+  bottom: 2vh;
+  /* justify-self: flex-end;
+  align-self: flex-end; */
   /* flex-direction: row; */
   /* justify-self: flex-end; */
   /* align-content: space-around; */
