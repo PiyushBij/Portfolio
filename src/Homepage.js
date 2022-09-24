@@ -95,7 +95,7 @@ function Homepage() {
         <div className="a1-content">
           <h1>My Journey</h1>
           <p>
-            My name is Piyush Bijwey, an intern front-end develeper. I've
+            My name is   an intern front-end develeper. I've
             started my web development journey when i was in college. Earlier I
             had decided to just be a creative front-end developer but from
             twenty twenty one, I've dived more into web and thaught to give a
