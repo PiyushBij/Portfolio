@@ -11,7 +11,6 @@ function Ivaan2() {
       <section id="top" className="eparent-e1">
         <div className="home-e1">
           <div
-            // style="background-image:url('../Image/Case/case-2.png');"
             className="i2-image"
           ></div>
           <div className="e1-heading-container">

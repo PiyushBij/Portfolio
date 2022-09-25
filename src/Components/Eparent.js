@@ -44,7 +44,6 @@ function Eparent() {
               laudantium! Autem voluptate libero adipisci et vero, ipsum
               cupiditate.
             </p>
-            {/* <button > */}
             <a
               className=" e1-nav e1-btn"
               target="_blank"
@@ -52,7 +51,6 @@ function Eparent() {
             >
               Visit <i class=" e1-i fa-solid fa-arrow-right-long"></i>
             </a>
-            {/* </button> */}
           </div>
         </div>
 

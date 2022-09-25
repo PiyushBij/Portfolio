@@ -1,12 +1,10 @@
 * {
-  /* border: 1px solid red; */
   box-sizing: border-box;
 }
 .contact-co1 {
   height: 100vh;
   width: 100vw;
   display: flex;
-  /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
@@ -19,7 +17,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-text-align: center;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -29,7 +27,6 @@ text-align: center;
   width: 60%;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
 }
@@ -37,23 +34,13 @@ text-align: center;
   width: 90%;
   height: 10%;
 }
-/* .line-container {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;border: 1px solid red;
-} */
 .line-wrapper {
   width: auto;
-  /* border: 1px solid red; */
   text-align: center;
   font-size: 9rem;
   line-height: 5rem;
-  /* color: rgba(118, 123, 187,0.3);*/
   color: transparent;
   -webkit-text-stroke: 2px rgba(255, 255, 255, 0.3);
-  /* overflow-x: hidden; */
   white-space: nowrap;
   position: absolute;
   bottom: 1vh;
@@ -66,23 +53,21 @@ text-align: center;
 @keyframes rightToLeft3 {
   0% {
     transform: translateX(0%);
-    /* filter: hue-rotate(0deg); */
   }
   100% {
     transform: translateX(-95%);
-    /* filter: hue-rotate(360deg); */
   }
 }
 .form-btn {
-  margin-top: 5vh; 
+  margin-top: 5vh;
   padding: 10px 20px;
-  background-image: linear-gradient(to right,purple,blue);
+  background-image: linear-gradient(to right, purple, blue);
   color: white;
   border: none;
 }
 .form-btn:hover {
   color: white;
-  box-shadow: 0 0 15px black;;
+  box-shadow: 0 0 15px black;
 }
 
 .target-1 {

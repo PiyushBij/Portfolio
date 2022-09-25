@@ -66,11 +66,9 @@
     display: block;
   } */
 .n2-close {
-  /* align-self: flex-end; */
   position: absolute;
   top: 4vh;
   right: 1vh;
-  /* width: 20px; */
   font-size: 3rem;
   background-color: transparent;
   border: none;
@@ -81,17 +79,11 @@
   list-style-type: none;
 }
 .n2-socials {
-  /* border:1px solid red; */
   width: 100%;
   height: 10vh;
   position: absolute;
   left: 0;
   bottom: 2vh;
-  /* justify-self: flex-end;
-  align-self: flex-end; */
-  /* flex-direction: row; */
-  /* justify-self: flex-end; */
-  /* align-content: space-around; */
   list-style-type: none;
   display: flex;
   align-items: center;

@@ -23,11 +23,6 @@ function Homepage() {
         </div>
       </div>
 
-      {/* <script>
-        $(window).on("load",function () {
-          $(".loader").fadeOut("slow") 
-        });
-      </script> */}
       <section id="top" className="homepage-h1">
         <Cookiepop />
         <Nav2Bar />
@@ -87,9 +82,7 @@ function Homepage() {
       </section>
 
       <section id="about-id" className="about-a1">
-        <script>
-          
-        </script>
+        
 
 
         <div className="a1-content">

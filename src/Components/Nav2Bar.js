@@ -31,7 +31,6 @@ function Nav2Bar() {
         <button
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
-            // alert("open");
             menuId2.style.display = "block";
           }}
           className="menu-btn"
@@ -83,7 +82,6 @@ function Nav2Bar() {
           <button
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
-              // alert("close");
               menuId2.style.display = "none";
             }}
             className="n2-close"
@@ -95,7 +93,6 @@ function Nav2Bar() {
             <li
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
-                // alert("close");
                 menuId2.style.display = "none";
               }}
               className="home "
@@ -108,7 +105,6 @@ function Nav2Bar() {
             <li
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
-                // alert("close");
                 menuId2.style.display = "none";
               }}
               className="home "
@@ -131,7 +127,6 @@ function Nav2Bar() {
             <li
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
-                // alert("close");
                 menuId2.style.display = "none";
               }}
               className="cases cookies home"
@@ -144,7 +139,6 @@ function Nav2Bar() {
             <li
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
-                // alert("close");
                 menuId2.style.display = "none";
               }}
               className="cases contact cookies"

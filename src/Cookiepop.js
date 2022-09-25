@@ -6,10 +6,6 @@ import cookieImage from "./Images/Home/Cookiess.png";
 function Cookiepop() {
   let cookiepop = document.getElementById("cookie-id");
   const [isExpanded, setIsExpanded] = useState(true);
-  // let dismissCookiesFun = () => {
-  //   cookiepop.style.display = "none";
-  //   alert("dismissed");
-  // };
   return (
     <>
       <div id="cookie-id" className="cookies-popup">
@@ -24,7 +20,6 @@ function Cookiepop() {
           <span
             onClick={() => {
               setIsExpanded(!isExpanded);
-              // alert("open");
               cookiepop.style.display = "none";
             }}
             className="strike dismiss"

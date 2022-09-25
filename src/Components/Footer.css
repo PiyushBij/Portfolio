@@ -1,6 +1,5 @@
 /* footer */
 .footer-f1 {
-  /* margin-top: 5vh; */
   padding: 15vh 5vh;
   height: auto;
   width: 100%;
@@ -14,7 +13,6 @@
   font-family: "League Spartan", sans-serif;
 }
 .f1-top {
-  /* border: 1px solid red; */
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   position: absolute;
@@ -23,7 +21,6 @@
   opacity: 0;
   z-index: 3;
   transition: 1s;
-  /* transform: translateX(-5vh); */
 }
 .f1-img-container:hover .f1-top {
   opacity: 1;
@@ -38,7 +35,6 @@
   height: 150px;
 }
 .f1-img {
-  /* border: 1px solid red; */
   height: 150px;
 }
 .f1-socials {
