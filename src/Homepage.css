@@ -14,7 +14,7 @@
   display: none;
   cursor: default;
   transition: 1s ease-in-out;
-}
+} 
 .menu-btn {
   display: none;
 }
@@ -59,13 +59,13 @@ h3 {
   display: inline-block;
 }
 .homepage-h1 h1 {
-  font-size: 4rem;
-  line-height: 4.1rem;
+  font-size: 3rem;
+  line-height: 3.1rem;
   color: white;
 }
 .homepage-h1 h3 {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
 }
 .animated-text-1 {
   -webkit-user-select: none; /* Safari */
@@ -88,7 +88,7 @@ h3 {
 .h1-social {
   justify-self: flex-end;
 
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .h1-social-ul {
   display: flex;
@@ -204,7 +204,7 @@ h3 {
   height: auto;
 }
 .a1-content h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 5vh;
   color: rgb(41, 41, 41);
@@ -213,7 +213,7 @@ h3 {
 .a1-content p {
   text-align: center;
   padding: 4vh;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   line-height: 1.5rem;
   font-weight: 400;
   font-family: "Dongle", sans-serif;
@@ -229,7 +229,7 @@ h3 {
 
 .a1-target {
   font-weight: bold;
-  font-size: 11rem;
+  font-size: 9rem;
   color: rgb(120, 120, 120, 0.3);
   animation-name: rightToLeft2;
   animation-duration: 25.5s;
@@ -269,7 +269,7 @@ h3 {
 .l1-heading {
   margin-top: 10vh;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "League Spartan", sans-serif;
   color: rgb(21, 21, 27);
   margin-bottom: 10vh;
@@ -328,7 +328,7 @@ h3 {
   transition-delay: 1s;
   transition: 1s;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .l1-overlay-headings h3 {
@@ -348,7 +348,7 @@ h3 {
   );
   border: none;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   display: block;
   cursor: pointer;
 }

@@ -22,8 +22,8 @@ function Nav2Bar() {
           <img
             id="logo-white"
             className="LogoImage"
-            height="90"
-            width="55"
+            height="80"
+            width="50"
             src={LogoImageW}
             alt="Logo"
           />

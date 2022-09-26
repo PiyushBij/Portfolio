@@ -1,3 +1,7 @@
+.logoImage {
+  /* height: 90%;
+  width: 55%; */
+} 
 .n2-menu-container {
   height: 100%;
   width: 100%;
@@ -43,7 +47,7 @@
 }
 .link {
   color: rgb(182, 178, 178);
-  font-size: 30px;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 .link:hover {
@@ -69,7 +73,7 @@
   position: absolute;
   top: 4vh;
   right: 1vh;
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: transparent;
   border: none;
   color: white;

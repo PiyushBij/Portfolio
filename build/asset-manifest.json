@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PiyushPortfolio/static/css/main.f94266bb.css",
-    "main.js": "/PiyushPortfolio/static/js/main.4df85545.js",
+    "main.css": "/PiyushPortfolio/static/css/main.bd8092ff.css",
+    "main.js": "/PiyushPortfolio/static/js/main.944de22b.js",
     "static/media/About-image.png": "/PiyushPortfolio/static/media/About-image.7d6e92904e81923aab69.png",
     "static/media/case-3.png": "/PiyushPortfolio/static/media/case-3.067c20ea97294d39790d.png",
     "static/media/js.png": "/PiyushPortfolio/static/media/js.90c11052230ddb86b028.png",
@@ -12,11 +12,11 @@
     "static/media/logo-white.png": "/PiyushPortfolio/static/media/logo-white.3c9fcebe3950a6402d4b.png",
     "static/media/html.png": "/PiyushPortfolio/static/media/html.26cbdaf5f0f0d92a0a62.png",
     "index.html": "/PiyushPortfolio/index.html",
-    "main.f94266bb.css.map": "/PiyushPortfolio/static/css/main.f94266bb.css.map",
-    "main.4df85545.js.map": "/PiyushPortfolio/static/js/main.4df85545.js.map"
+    "main.bd8092ff.css.map": "/PiyushPortfolio/static/css/main.bd8092ff.css.map",
+    "main.944de22b.js.map": "/PiyushPortfolio/static/js/main.944de22b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94266bb.css",
-    "static/js/main.4df85545.js"
+    "static/css/main.bd8092ff.css",
+    "static/js/main.944de22b.js"
   ]
 }

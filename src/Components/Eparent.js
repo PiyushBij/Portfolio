@@ -1,8 +1,13 @@
 import "./Case.css";
+import {useEffect} from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer.js";
 import Nav2Bar from "./Nav2Bar.js";
 function Eparent() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <>
       <Nav2Bar />
