@@ -6,6 +6,8 @@ import Footer from "./Footer.js";
 import Nav2Bar from "./Nav2Bar.js";
 
 function Ivaan2() {
+  
+  document.body.style.zoom = "100%"; 
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});

@@ -70,7 +70,9 @@ function Homepage() {
             </ul>
           </div>
         </div>
-        <div className="h1-magic-boxes">
+
+
+        {/* <div className="h1-magic-boxes">
           <div className="h1-magics">
             <img className="h1-magics-images" src={h1magichtml} alt="htmlAlternate" />
           </div>
@@ -80,7 +82,45 @@ function Homepage() {
           <div className="h1-magics">
             <img className="h1-magics-images" src={h1magicjs} alt="jsAlternate" />
           </div>
+        </div> */}
+
+        <div className="h1-magic-boxes">
+          <div className="h1-magics">
+          <h1 className="loaderk">
+  <span>H</span>
+  <span>T</span>
+  <span>M</span>
+  <span>L</span>
+  {/* <span>I</span>
+  <span>N</span>
+  <span>G</span> */}
+</h1>
+          </div>
+          <div className="h1-magics">
+          <h1 className="loaderk">
+  <span>C</span>
+  <span>S</span>
+  <span>S</span>
+  {/* <span>D</span>
+  <span>I</span>
+  <span>N</span>
+  <span>G</span> */}
+</h1>
+          </div>
+          <div className="h1-magics">
+          <h1 className="loaderk">
+  <span>J</span>
+  <span>S</span>
+  {/* <span>A</span>
+  <span>D</span>
+  <span>I</span>
+  <span>N</span>
+  <span>G</span> */}
+</h1>
+          </div>
         </div>
+
+
       </section>
 
       <section id="about-id" className="about-a1">

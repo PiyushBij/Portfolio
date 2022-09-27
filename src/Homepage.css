@@ -147,7 +147,7 @@ h3 {
   cursor: pointer;
 }
 
-.h1-magics:hover .h1-magics-images {
+.h1-magics:hover .loaderk {
   animation: bounceIn 1.6s;
 }
 
@@ -155,6 +155,7 @@ h3 {
   0% {
     opacity: 1;
     transform: scale(0.3);
+
   }
 
   50% {
@@ -176,14 +177,79 @@ h3 {
 @keyframes float {
   0% {
     transform: translatey(0px);
+    filter: hue-rotate(0deg);
   }
   50% {
     transform: translatey(-20px);
   }
   100% {
     transform: translatey(0px);
+    filter: hue-rotate(360deg);
   }
 }
+
+
+h1.loaderk {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  color: transparent;
+  animation: float 3s ease-in-out infinite;
+  letter-spacing: 0.01em;
+}
+
+.loaderk span {
+  text-shadow:
+    0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.102),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);
+  
+    animation: loadingk 0.85s ease-in-out infinite alternate;
+}
+
+@keyframes loadingk {
+  to {text-shadow:
+    0 0 2px rgba(204, 208, 212,0.2),
+    0 0 3px rgba(0, 0, 0, 0.02),
+    0 0 0 rgba(0, 0, 0, 0),
+    0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(0, 0, 0, 0),
+    0 0 0 rgba(255, 255, 255, 0),
+    0 0 0 rgba(255, 255, 255, 0);}
+}
+
+.loaderk span:nth-child(2) {
+  animation-delay:0.15s;
+}
+
+.loaderk span:nth-child(3) {
+  animation-delay:0.30s;
+}
+
+.loaderk span:nth-child(4) {
+  animation-delay:0.45s;
+}
+
+.loaderk span:nth-child(5) {
+  animation-delay:0.60s;
+}
+
+.loaderk span:nth-child(6) {
+  animation-delay:0.75s;
+}
+
+.loaderk span:nth-child(7) {
+  animation-delay:0.90s;
+}
+
+
+
+
 
 /* about */
 
